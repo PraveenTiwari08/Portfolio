@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+   rel="stylesheet"
+   href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+  />
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="./index.js"></script>
+    <!-- <link rel="stylesheet" href="./cccs.css" /> -->
+    <title>Praveen Tiwari_Portfolio</title>
+  </head>
+  <body>
+    <div id="nav-menu">
+      <nav>
+        <div class="container1">
+          <h1><span class="autotype"></span></h1>
+        </div>
+        <ul id="sidemenu">
+          <li >
+            <a href="#home" class="nav-link home">Home<i class="fa-solid fa-house"></i></a>
+          </li>
+          <li >
+            <a class="nav-link about" href="#about">About<i class="fa-solid fa-id-card"></i></a>
+          </li>
+          <li >
+            <a class="nav-link skills" href="#skills1">Skills<i class="fa-solid fa-graduation-cap"></i></a>
+          </li>
+          <li >
+            <a class="nav-link projects" href="#projects">Projects<i class="fa-brands fa-stack-overflow"></i></a>
+          </li>
+          <li >
+            <a class="nav-link contact" href="#contact">Contact<i class="fa-solid fa-circle-user"></i></a>
+          </li>
+          <li ><a class="nav-link resume" id="nav-link resume" href="https://drive.google.com/file/d/1ToGU7_MOnp2wAllnpMY_U2hdShlzglGn/view?usp=sharing">Resume</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+    </div>
+
+    <!-- ------------------------------ Home Section ------------------------ -->
+
+    <div id="home" class="home section">
+      <!-- user-detail-name -->
+      <div data-aos="fade-in">
+        <h1>
+          <span id="hr">Hello.!</span><span id="user-detail-name"> I'am Praveen Tiwari</span> <br/>
+          <span class="name1">Angular FrontEnd Developer</span>
+        </h1>
+        <p>
+          Welcome to my portfolio, where I showcase my journey as a full-stack
+          developer and demonstrate the breadth and depth of my skills.
+        </p>
+        <br>
+        <p>
+          As a full-stack developer, I have honed my abilities in both front-end
+          and back-end technologies, allowing me to create comprehensive and
+          seamless web applications. Through this portfolio, I aim to provide
+          you with a glimpse into my world of coding, problem-solving, and
+          creating innovative solutions.
+        </p>
+      </div>
+      <div id="intro-image">
+        <img src="/Image/IMG_20220808_113441.jpg" alt="" />
+      </div>
+    </div>
+
+    <!-- ----------------------------------------About --------------------------------------- -->
+
+    <div id="about" class="about section">
+      <h1 id="display" class="sub-title">About me</h1>
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <!-- <img class="home-img" src="./images/profile-image.png" alt="" /> -->
+            <div class="home-img">
+              <div class="content">
+                  <img src="./Image/IMG_20220808_113441.jpg" alt="">
+                  <a id="resume-link-1" download href="./Image/work experience (4).pdf">Download Resume</a>
+                  <a id="resume-link-2" href="https://drive.google.com/file/d/1jK-6-i2lr3N4L9FR417DZkwtWe1m83Fx/view?usp=drive_link" target="_blank">View Resume</a>
+              </div>
+          </div>
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Frontend Developer proficient in Angular Js, Bootstrap, Javascript,
+              HTML, and CSS. Hands-on coding experience of over 500 hours.
+              Skilled in designing efficient web applications, optimizing
+              database performance, and ensuring data integrity. Collaborative
+              team player with strong problem-solving abilities. Committed to
+              delivering high-quality code and staying updated with industry
+              trends
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills1')">
+                Soft Skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('sports')">Sports</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills1">
+              <ul>
+                <li>
+                  <span>Self-learning <br /></span>Acquiring knowledge and skills
+                  independently through personal exploration and practice.
+                </li>
+                <li>
+                  <span>Time Management <br /></span>The effective utilization and
+                  organization of time to prioritize tasks and achieve goals.
+                </li>
+                <li>
+                  <span>Problem Solving <br /></span>Have ability to analyze
+                  complex situations and obstacles to develop effective solutions,
+                  through critical thinking and decision-making.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span
+                    >Full stack web Development <span id="alter">(Full Time)</span
+                    ><br
+                  /></span>
+                  Masai School, Bengaluru<br />
+                  <!-- 10/2022 – 08/2023 -->
+                </li>
+                <li>
+                  <span
+                    > Bachelor of Science in Information Technology
+                    <span id="alter">(BSc IT)</span><br
+                  /></span>
+                  Shri Vaishnav Institute of Management, Indore<br />
+                  <!-- 07/2017 – 07/2021 -->
+                </li>
+                <!-- <li>
+                  <span>Pre-University Course <br /></span>
+                  Jain Pre-University College <br />
+                  05/2015 – 04/2017
+                </li> -->
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="sports">
+              <ul>
+                <li>
+                ~ <strong>GOLD MEDALIST</strong>  in 1st MP State Elbow Boxing Championship held in 2018.
+                </li>
+                <li>
+                  ~  <strong>BRONZE MEDALIST</strong> in 5th National Thai Boxing Federation Cup held in 2019.
+                  </li>
+                  <li>
+                    ~  <strong>SILVER MEDALIST</strong> in 6th Students Olympic National Games held in 2019-20.
+                    </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------------------------ skills ---------------------------------------------------- -->
+
+    </div>
+    <div id="skills1">
+      <div class="container">
+        <h1 class="sub-title" id="sub-title">Skills</h1>
+        <div class="skills-list">
+          <div id="tansform-div" data-aos="slide-up">
+            <i class="fa-brands fa-java"></i>
+            <h2>Angular Frontend Development</h2>
+            <p>
+              Angular is a powerful and popular framework for frontend development, 
+              offering a structured and modular approach to building web applications.
+               With its robust features and extensive tooling,
+                Angular empowers developers to create dynamic and responsive user interfaces with ease.
+            </p>
+          </div>
+          <div id="tansform-div" data-aos="slide-up">
+            <i class="fa-solid fa-code"></i>
+            <h2>Frontend Development</h2>
+            <p>
+              Front-End Developer is responsible for developing new user-facing
+              features, determining the structure and design of web pages,
+              building reusable codes, optimizing page loading times, and using a
+              variety of markup languages to create the web pages using HTML5 /
+              CSS & JavaScript.
+            </p>
+          </div>
+          <div id="tansform-div" data-aos="slide-up">
+            <i class="fa-solid fa-face-smile-beam"></i>
+            <h2>Communication <br />Effectiveness</h2>
+            <p>
+              Effective communication is the process of exchanging ideas,
+              thoughts, opinions, knowledge, and data so that the message is
+              received and understood with clarity and purpose. When we
+              communicate effectively, both the sender and receiver feel
+              satisfied.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1 class="sub-title" id="sub-title">TECH-STACK</h1>
+      <div id = "skills">
+        <div class="skills-card" data-aos="zoom-in"><img class="skills-card-img" src="./image/AngularLogo.jpg" alt=""><p class="skills-card-name">Angular js</p></div>
+        <div class="skills-card" data-aos="zoom-in"><img class="skills-card-img" src="./image/TypeScript.jpg" alt=""><p class="skills-card-name">TypeScript</p></div>
+        <div class="skills-card" data-aos="zoom-in"><img class="skills-card-img" src="./image/BootStrap.jpg" alt=""><p class="skills-card-name">Bootstrap</p></div>
+        <div class="skills-card" data-aos="zoom-in"><img class="skills-card-img" src="./image/Javascript.jpg" alt=""><p class="skills-card-name">JavaScript</p></div>
+        <div class="skills-card" data-aos="zoom-in"><img class="skills-card-img" src="./image/Html.jpg" alt=""><p class="skills-card-name">Html</p></div>
+        <div class="skills-card" data-aos="zoom-in"><img class="skills-card-img" src="./image/CSS.jpg" alt=""><p class="skills-card-name">Cascading Style Sheets(css)</p></div>
+      </div>
+
+    <!-- ------------------------------- projects ------------------------------------- -->
+    <!-- zoom-in-up -->
+    <div id="projects">
+      <h1 class="sub-title" id="sub-title">Projects</h1>
+      <div class="container">
+        <div class="projects-list">
+          <!-- <div class="project-card" data-aos="zoom-in-up">
+            <img src="./Image/Project Screenshot .jpg" alt="" />
+            <div class="layer">
+              <h3 class="project-title">Brookstone.com (clone)</h3>
+              <p class="project-description">
+                This project is an E-Commerce website with essential features such as CRUD (Create, Read, Update, Delete) 
+                operations,product browsing, searching, sorting, cart management,
+                admin panel, and checkout process. The website will provide a user-friendly
+                interface for customers to browse and purchase products while allowing administrators to manage 
+                the inventory and customer orders.
+              </p>
+              <div class="project-tech-stack">
+                HTML | CSS | JAVASCRIPT
+              </div>
+              <div>
+                <a href="https://github.com/PraveenTiwari08/nostalgic-adjustment-4013" target="_blank" class="project-github-link" 
+                  ><i id = "icons" class="fa-brands fa-github"></i
+                ></a>
+                <a href="https://statuesque-semifreddo-91e95a.netlify.app/" target="_blank" class="project-deployed-link"
+                  ><i id = "icons" class="fa-solid fa-link"></i
+                ></a>
+             </div>
+            </div>
+          </div> -->
+          <div class="project-card" data-aos="zoom-in-up">
+            <img src="./Image/Project Screenshot .jpg" alt="" />
+            <div class="layer">
+              <h3 class="project-title">BajaIndore.com</h3>
+              <p class="project-description">
+                This project is an E-Commerce website with essential features such as CRUD (Create, Read, Update, Delete) 
+                operations,product browsing, searching, sorting, cart management,
+                admin panel, and checkout process. The website will provide a user-friendly
+                interface for customers to browse and purchase products while allowing administrators to manage 
+                the inventory and customer orders.
+              </p>
+              <div class="project-tech-stack">
+                HTML | CSS | Angular Js | Bootstrap
+              </div>
+              <div>
+                <a href="https://github.com/PraveenTiwari08/nostalgic-adjustment-4013" target="_blank" class="project-github-link" 
+                  ><i id = "icons" class="fa-brands fa-github"></i
+                ></a>
+                <a href="https://statuesque-semifreddo-91e95a.netlify.app/" target="_blank" class="project-deployed-link"
+                  ><i id = "icons" class="fa-solid fa-link"></i
+                ></a>
+             </div>
+            </div>
+          </div>
+          <div class="project-card" data-aos="zoom-in-up">
+            <img src="./Image/Recipe Book ScreenShot.jpg" alt="" />
+            <div class="layer">
+              <h3 class="project-title">RecipeBook.com (Course Project)</h3>
+              <p class="project-description">
+                E-Commerce website with essential features such as CRUD (Create, Read, Update, Delete), JSON server 
+                operations,product browsing, searching, sorting, cart management,
+                admin panel, checkout process and interface for customers to browse the products. 
+                Administrators can manage the inventory and customer orders.
+              </p>
+              <div class="project-tech-stack">
+                HTML | CSS | Angular Js | Bootstrap
+              </div>
+              <div>
+                <a href="https://github.com/Dharamveer9457/makeshift-protest-7826" target="_blank" class="project-github-link" 
+                  ><i id = "icons" class="fa-brands fa-github"></i
+                ></a>
+                <a href="#" target="_blank" class="project-deployed-link"
+                  ><i id = "icons" class="fa-solid fa-link"></i
+                ></a>
+             </div>
+            </div>
+          </div>
+          <div class="project-card" data-aos="zoom-in-up">
+            <img src="./Image/Food Express Web screenshot.jpg" alt="" />
+            <div class="layer">
+              <h3 class="project-title">Food Express Web</h3>
+              <p class="project-description">
+                Discover Food Express: HTML/CSS-designed food order website. 
+                Easy online ordering, diverse menu, and quick doorstep delivery. 
+                Savor the taste!
+              </p>
+              <div class="project-tech-stack">
+                HTML | CSS 
+              </div>
+              <div class="icons"> 
+                <a href="https://github.com/PraveenTiwari08/Food-Express-Web" target="_blank" class="project-github-link"
+                  ><i id = "icons" class="fa-brands fa-github"></i
+                ></a>
+                <!-- <a href="https://drive.google.com/file/d/1FHouzcxPYTjroPYSbN_iGhH8oQptpgiq/view" target="_blank" class="project-deployed-link"
+                  ><i id = "icons" class="fa-brands fa-youtube"></i>
+                </a> -->
+                <a href="https://superb-gumption-b189c7.netlify.app/" target="_blank" class="project-deployed-link"
+                  ><i id = "icons" class="fa-solid fa-link"></i
+                ></a>
+            </div>
+          </div>
+        </div>
+       </div>
+    </div>
+
+    <!--  ----------------------git hub calender------------------------ -->
+    <!-- <div class="react-activity-calendar" data-aos="zoom-in-up">
+      <h1 class="sub-title" id="sub-title">DAYS I WORKED</h1>
+      <img src="./images/edited image of calender.jpg" alt="">
+    </div> -->
+
+    <h1 class="sub-title" id="sub-title">MY STATISTICS</h1>
+    <div id="github-streak-stats" data-aos="zoom-in-up"> 
+      <!-- <a href="https://git.io/streak-stats" target="_blank"> -->
+        <img src="https://github-readme-streak-stats.herokuapp.com?user=PraveenTiwari08&theme=dark" alt="GitHub Streak">
+      <!-- </a>       -->
+    </div>
+
+    <div id="github-stats-card" data-aos="zoom-in-up">
+      <img src="https://github-readme-stats.vercel.app/api?username=PraveenTiwari08&show_icons=true&theme=transparent
+      " alt="">
+    </div>
+
+
+    <div id="github-top-langs" data-aos="fade-up">
+      <!-- <a href="https://github.com/anuraghazra/github-readme-stats"> -->
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PraveenTiwari08" alt="GitHub Streak">
+      <!-- </a>       -->
+    </div>
+    <!--  ----------------------------------------- contact ------------------------------- -->
+    <div id="contact" data-aos="zoom-in-up">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i id="contact-email" class="fa-solid fa-paper-plane"></i>praviintiwari8@gmail.com</p>
+            <p><i id="contact-phone" class="fa-solid fa-phone-volume"></i>+91-8839664469</p>
+            <div class="social-icons">
+              <a id="contact-github" href="https://github.com/PraveenTiwari08" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a id="contact-linkedin" href="https://www.linkedin.com/in/praveen-tiwari-a4b445216/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              <a id="contact-email1" href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <a id="resume-link-1" download href="./Image/work experience (4).pdf">Download Resume</a>
+            <a id="resume-link-2" href="https://drive.google.com/file/d/1jK-6-i2lr3N4L9FR417DZkwtWe1m83Fx/view?usp=sharing" target="_blank">View Resume</a>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" cols="10" placeholder="Your Message"></textarea>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div >
+  </div>
+  <div class="copyright">
+    <p>Made with  <i class="fa-solid fa-heart" style="color:red"></i>  by Praveen Tiwari</p>
+  </div>
+  </body>
+  <script>
+    var typed = new Typed(".autotype", {
+      strings: ["Portfolio..", "Welcome.."],
+      typeSpeed: 150,
+      backSpeed: 150,
+      loop: true,
+    });
+
+  let sidemenu = document.querySelector("#sidemenu");
+  console.log(sidemenu.style);
+
+  function openmenu(){
+    console.log("hello open")
+    sidemenu.style.right = "0px";
+  }
+
+  function closemenu(){
+    sidemenu.style.right = "-180px";
+  }
+  </script>
+   <!------------------ animation ------------------>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        delay:"1000s",
+        offset: 200,
+      });
+    </script>
+</html>
